@@ -1,0 +1,40 @@
+.w,.e,.l,.c,.o,.m,.e2{
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.firsthero{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    width: 100%;
+    background-image: -moz-repeating-linear-gradient(
+        45deg,            /* Angle of the gradient */
+        pink,             /* First color (pink) */
+        pink 25%,         /* Pink ends at 25% */
+        lightcoral 25%,   /* Light red (light coral) starts at 25% */
+        lightcoral 50%,   /* Light red ends at 50% */
+        blue 50%,         /* Blue starts at 50% */
+        blue 75%,         /* Blue ends at 75% */
+        white 75%,        /* White starts at 75% */
+        white 100%        /* White ends at 100% */
+      );
+      
+      background-image: repeating-linear-gradient(
+        45deg,            /* Angle of the gradient */
+        pink,             /* First color (pink) */
+        pink 25%,         /* Pink ends at 25% */
+        lightcoral 25%,   /* Light red (light coral) starts at 25% */
+        lightcoral 50%,   /* Light red ends at 50% */
+        blue 50%,         /* Blue starts at 50% */
+        blue 75%,         /* Blue ends at 75% */
+        white 75%,        /* White starts at 75% */
+        white 100%        /* White ends at 100% */
+      );
+      
+      
+}
